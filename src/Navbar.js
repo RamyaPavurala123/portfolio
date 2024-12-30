@@ -35,7 +35,7 @@ function Navbar() {
       <div className='leftside'>
       <h1 className="name" style={{ color: 'hsl(299, 84%, 17%)'}}>Ramya Pavurala</h1>
           <h2 className='role' style={{ color: 'hsl(299, 84%, 17%)'}}>FrontEnd Developer</h2>
-          <h2 className='home' onClick={handleOnclickHome}>Home</h2>
+          <h2 className='home' onClick={handleOnclickHome} >Home</h2>
           <h2 className='home'onClick={handleOnclickAbout}>About</h2>
           <h2 className='home' onClick={handleOnclickProject}>Project</h2>
           <h2 className='home' onClick={handleOnclickContact}>Contact</h2>
