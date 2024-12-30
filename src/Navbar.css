@@ -1,0 +1,163 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.leftside h1{
+  color: white;
+}
+.maincontainer {
+  background-image: linear-gradient(hsl(300, 71%, 54%), rgb(219, 136, 168));
+  width: 100%;
+  height: 1000px;
+  overflow: hidden; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftside {
+  background-image: linear-gradient(hwb(300 58% 13%), rgb(219, 136, 168));
+  width: 350px;
+  height: 600px;
+  float: left;
+  margin-top: -230px;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  margin-right: -500px;
+}
+h1,h2{
+  margin-right: 30px;
+  color: white;
+}
+.rightside {
+  background-image: linear-gradient(hwb(300 58% 13%), rgb(219, 136, 168));
+  width: 650px;
+  height: 600px;
+  float: left;
+  margin-top: -230px;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden; 
+}
+
+.name, .role, .home, .heading, .heading1, .heading2, .heading3 {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.name {
+  margin-top: 100px;
+  font-size: 32px; 
+  margin-left: 23px;
+ 
+}
+.leftside:hover{
+  transform: scale(1.1);
+}
+.rightside:hover{
+  transform: scale(1.1);
+}
+.role {
+  margin-top: 10px;
+  font-size: 18px; 
+}
+
+.home {
+  margin-top: 20px;
+  background-image: linear-gradient(#da5ada, hsl(337, 36%, 55%));
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 80px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px; 
+  margin-left: 50px;
+}
+
+.heading {
+  margin-top: 160px;
+  font-size: 20px;
+}
+
+.heading1, .heading2, .heading3 {
+  margin-top: 15px;
+  font-size: 18px; 
+}
+
+.heading3 {
+  background-image: linear-gradient(#da5ada, hsl(337, 36%, 55%));
+  border-radius: 10px;
+  margin-left: 250px;
+  width: 150px;
+  margin-top: 20px;
+  font-size: 18px; 
+}
+
+.home:hover {
+  transform: scale(1.1);
+}
+
+.heading3:hover {
+  transform: scale(1.1);
+}
+
+.icons:hover {
+  transform: scale(1.5);
+  color: white;
+}
+
+.social-meida {
+  margin-left: 100px;
+  margin-top: 40px;
+  background-image: linear-gradient(#da5ada, hsl(337, 36%, 55%));
+  width: 400px;
+  height: 50px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons1, .icons2, .icons3, .icons4 {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 30px; 
+}
+
+.icons1:hover, .icons2:hover, .icons3:hover, .icons4:hover {
+  transform: scale(1.5);
+}
+.heading1{
+  margin-left: 40px;
+}
+.heading{
+  margin-left: 40px;
+}
+.iconslinkedIn{
+ color: white;
+ margin-top: 5px;
+ font-size: 10px;
+ margin-right: 10px;
+}
+.iconsgmail{
+  color: white;
+  margin-top: 5px;
+  font-size: 10px;
+  margin-left: 10px;
+ }
+ .iconsgithub{
+  color: white;
+  margin-top: 5px;
+  font-size: 10px;
+  margin-left: 20px;
+ }

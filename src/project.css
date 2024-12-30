@@ -1,0 +1,23 @@
+.project-container{
+    background-image: linear-gradient(hsl(300, 71%, 54%), rgb(219, 136, 168));
+  width: 100%;
+  height: 1000px;
+}
+
+.project1,.project2{
+    margin-left: 430px;
+}
+.project-heading{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    color: hsl(314, 84%, 24%);
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+.project2:hover{
+    transform: scale(1.1);
+}

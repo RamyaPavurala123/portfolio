@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, hsla(307, 75%, 53%, 0.996), hsl(309, 63%, 64%));
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  .marquee {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .radial-text-gradient {
+    background: radial-gradient( hsl(309, 79%, 32%));
+    
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+ 
+  .about-me, .skills {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .skills li:hover {
+    transform: scale(1.1);
+    background-color: rgb(91, 11, 81);
+    cursor: pointer;
+  }
+  

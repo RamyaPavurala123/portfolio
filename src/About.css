@@ -1,0 +1,78 @@
+
+
+
+
+.about-container {
+    background-image: linear-gradient(hsl(300, 71%, 54%), rgb(219, 136, 168));
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+
+  section {
+    width: 600px;
+    margin: 20px 0; 
+    background-image: linear-gradient(rgb(204, 93, 204), hsl(337, 12%, 87%));
+    padding: 20px;
+    border-radius: 8px; 
+    
+  }
+  
+
+  ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  
+  p, li {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: hsl(299, 84%, 17%);
+    font-weight: bold;
+  }
+  
+ 
+  li {
+    margin-bottom: 10px;
+  }
+  .about:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  
+  }
+  .developer-profile:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .education-skills:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .projects:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }

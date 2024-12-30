@@ -1,0 +1,81 @@
+
+   .hireme-container {
+    background-image: linear-gradient(hsl(300, 71%, 54%), rgb(219, 136, 168));
+    height: 150vh;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.hireme-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hireme-intro {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hireme-body {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.hireme-footer {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: left;
+}
+
+h1, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+strong {
+    color: skyblue; 
+    cursor: pointer;
+}
+
+strong:hover {
+    transform: scale(1.5);
+}
+
+.hireme-email, .hireme-linkedin {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hireme-email:hover, .hireme-linkedin:hover {
+    color: skyblue; 
+}
+
+.hireme-linkedin {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.hireme-linkedin:hover {
+    background-color: hsl(284, 84%, 35%);
+    color: white;
+}
+
+.hireme-heading, .hireme-intro, .hireme-body, .hireme-footer {
+    color: white;
+}
+.hireme-intro{
+  margin-right: 1180px;
+}
